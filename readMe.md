@@ -2,7 +2,7 @@
 
 **Мотивационная картинка 1:**
  
-> [my GitHub](code.js)
+> [my GitHub](https://github.com/trenersambo)
 
 **Описание контрольной работы**
 
