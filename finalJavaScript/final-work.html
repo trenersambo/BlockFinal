@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> </title>
+</head>
+<body>
+
+<p>
+ 
+</p>
+
+<script>
+function arrayTwoSymbol(arr){
+  let newArr = [] ;
+  
+  for(let i = 0; i < arr.length; i++){
+
+    arr[i] = arr[i].toString() ; // Принудительная конвертация в String
+
+    if(arr[i].length <=3){
+      newArr.push(arr[i]) // push в массив по условию
+  }
+}
+  console.log (newArr) ;
+}
+
+ //test
+arrayTwoSymbol( ['Sambo', 'BJJ', 'Judo', 22, ':^)', 'C#'] );
+ arrayTwoSymbol( ['-2', '2gb', '1-', '8.2']);
+ arrayTwoSymbol( ['javascript', 'frontend', 'Vue JS'] );
+
+</script>
+  
+</body>
+</html>
