@@ -1,6 +1,9 @@
 # Итоги блока. Выбор специализации
 
 **Мотивационная картинка 1:**
+
+![frontend img](front.jpg)
+ 
  
 > [my GitHub](https://github.com/trenersambo)
 
